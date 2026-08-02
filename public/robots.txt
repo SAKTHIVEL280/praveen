@@ -1,0 +1,48 @@
+# Robots.txt for Sakthivel E Portfolio (https://sakthivel.daeq.in/)
+# Optimized for Google, Bing, DuckDuckGo, Yahoo, and AI Search Engines (Perplexity, ChatGPT, Gemini, Claude)
+
+User-agent: *
+Allow: /
+
+# AI & LLM Search Crawlers (AEO / GEO Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+Host: https://sakthivel.daeq.in
+Sitemap: https://sakthivel.daeq.in/sitemap.xml

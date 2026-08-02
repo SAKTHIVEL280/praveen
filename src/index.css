@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 5%;          /* Deep Black #0d0d0d */
+    --foreground: 0 0% 96%;         /* Crisp Off-White #f5f5f5 */
+    --card: 0 0% 8%;                /* Dark Grey #141414 */
+    --card-foreground: 0 0% 96%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 96%;
+    --primary: 47 100% 50%;         /* Caterpillar Yellow #FFCD00 */
+    --primary-foreground: 0 0% 5%;
+    --secondary: 0 0% 14%;          /* Industrial Grey #242424 */
+    --secondary-foreground: 0 0% 96%;
+    --muted: 0 0% 16%;
+    --muted-foreground: 0 0% 65%;   /* Light Grey #a6a6a6 */
+    --accent: 47 100% 50%;          /* Caterpillar Yellow Accent */
+    --accent-foreground: 0 0% 5%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 96%;
+    --border: 0 0% 20%;             /* Dark Border #333333 */
+    --input: 0 0% 20%;
+    --ring: 47 100% 50%;
+    --radius: 0rem;
+
+    /* Portfolio-specific tokens */
+    --hero-bg: 0 0% 5%;
+    --hero-fg: 0 0% 96%;
+    --manifesto-muted: 0 0% 30%;
+    --manifesto-active: 47 100% 50%; /* Caterpillar Yellow #FFCD00 */
+    --section-dark: 0 0% 5%;
+    --section-light: 0 0% 5%;        /* Pure Dark Black */
+    --pill-border: 47 100% 50%;      /* Yellow Pill Border */
+
+    /* Inverted section (Skills & Footer bridge) */
+    --inv-bg: 0 0% 5%;               /* Deep Dark Black #0d0d0d */
+    --inv-fg: 0 0% 96%;              /* Off-White #f5f5f5 */
+    --inv-muted: 0 0% 65%;           /* Industrial Light Grey #a6a6a6 */
+    --inv-border: 47 100% 50%;       /* Caterpillar Yellow Border #FFCD00 */
+    --inv-card-bg: 0 0% 10%;         /* Dark Charcoal Card #1a1a1a */
+    --inv-card-fg: 47 100% 50%;      /* Yellow Text on Hover */
+    --inv-wave-1: 0 0% 12%;          /* Dark Grey Wave 1 */
+    --inv-wave-2: 0 0% 8%;           /* Dark Grey Wave 2 */
+    --inv-wave-3: 0 0% 5%;           /* Deep Black Wave 3 */
+
+    /* Nav pill */
+    --nav-bg: 0 0% 8%;
+    --nav-border: 47 100% 45%;
+    --nav-active-bg: 47 100% 50%;
+    --nav-active-fg: 0 0% 5%;
+    --nav-muted: 0 0% 65%;
+
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 0 0% 96%;
+    --sidebar-primary: 47 100% 50%;
+    --sidebar-primary-foreground: 0 0% 5%;
+    --sidebar-accent: 0 0% 14%;
+    --sidebar-accent-foreground: 0 0% 96%;
+    --sidebar-border: 0 0% 20%;
+    --sidebar-ring: 47 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html, body, #root {
+    background-color: #0d0d0d !important;
+    color: #f5f5f5 !important;
+  }
+  html {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    @apply bg-background text-foreground;
+    overflow-x: hidden;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}
+
+/* Lenis */
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Skill card hover text color */
+.skill-card-outline:hover .skill-label {
+  color: hsl(var(--inv-card-fg));
+}
+.skill-card-filled:hover .skill-label {
+  color: hsl(var(--inv-fg));
+}
+
+@layer utilities {
+  a:focus-visible, button:focus-visible {
+    outline: 2px solid #FFCD00;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}

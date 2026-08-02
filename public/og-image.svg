@@ -1,0 +1,17 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  <rect x="38" y="38" width="1124" height="554" rx="24" fill="#111111" stroke="#222222" stroke-width="2"/>
+  
+  {/* S. Brand Logo Icon */}
+  <rect x="92" y="96" width="100" height="100" rx="20" fill="#1F1F1F" stroke="#333333" stroke-width="2"/>
+  <text x="142" y="162" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="64" font-weight="800" text-anchor="middle">S.</text>
+  
+  <text x="216" y="145" fill="#F2F2F2" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="700" letter-spacing="-1">Sakthivel E</text>
+  <text x="218" y="185" fill="#888888" font-family="Inter, sans-serif" font-size="20" font-weight="600" letter-spacing="4">PORTFOLIO — AI-NATIVE ENGINEER</text>
+
+  <text x="92" y="310" fill="#E5E5E5" font-family="Inter, sans-serif" font-size="34" font-weight="500">I design, build, and ship complex software systems</text>
+  <text x="92" y="360" fill="#E5E5E5" font-family="Inter, sans-serif" font-size="34" font-weight="500">by collapsing ideas directly into production.</text>
+
+  <rect x="92" y="440" width="280" height="50" rx="25" fill="#FFFFFF"/>
+  <text x="232" y="473" fill="#0A0A0A" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" letter-spacing="3" text-anchor="middle">sakthivel.daeq.in</text>
+</svg>

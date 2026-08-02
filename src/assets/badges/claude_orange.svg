@@ -1,0 +1,12 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' width='120' height='120'>
+  <defs>
+    <linearGradient id='claudeGrad' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#D97706'/>
+      <stop offset='100%' stop-color='#B45309'/>
+    </linearGradient>
+  </defs>
+  <rect x='10' y='10' width='100' height='100' rx='28' fill='url(#claudeGrad)' stroke='#FFCD00' stroke-width='2.5'/>
+  <g transform='translate(60, 60) scale(1.6) translate(-24, -24)'>
+    <path d='M24 4 L27.5 17.5 L41 14 L31 24 L41 34 L27.5 30.5 L24 44 L20.5 30.5 L7 34 L17 24 L7 14 L20.5 17.5 Z' fill='#FFFFFF'/>
+  </g>
+</svg>

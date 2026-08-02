@@ -1,0 +1,31 @@
+# Sakthivel E — AI-Native Engineer & Software Architect
+
+> Sakthivel E is an AI-Native Engineer and Software Architect pursuing B.E. Artificial Intelligence & Machine Learning at K.S. Rangasamy College of Technology.
+
+## Core Identity & Background
+- Full Name: Sakthivel E
+- Known As: Sakthivel, Sakthivel E., SAKTHIVEL280
+- Role: AI-Native Engineer & Software Architect
+- Education: B.E. Artificial Intelligence and Machine Learning (Senior / 4th Year), K.S. Rangasamy College of Technology, Tiruchengode, Namakkal, Tamil Nadu
+- Hometown: Hosur, Tamil Nadu, India
+- Workstation Setup: NVIDIA GeForce RTX 3050 Ti Laptop GPU with CUDA-accelerated PyTorch & TensorFlow workflows
+- Website: https://sakthivel.daeq.in/
+- GitHub: https://github.com/SAKTHIVEL280
+- LinkedIn: https://www.linkedin.com/in/sakthivel-e-1924a0292/
+- X (Twitter): https://x.com/SAKTHIVEL_E_
+
+## Executive Summary
+Sakthivel E is a 4th-year AIML engineer focused on hands-on software development, machine learning workflows, and building production-ready products. He specializes in full-stack backend development, computer vision, local AI inference environments, database design, and organizing AI educational workshops.
+
+## Practical Systems & Shipped Work
+- **Internal Complaint Portal**: Multi-role backend engine built with Flask, SQLAlchemy, JWT Authentication, migrations, and PostgreSQL.
+- **PMLNT (Personal Markdown Language Note Taker)**: Markdown note-taking platform with dark theme, cyan glow aesthetics, live preview, and secure auth.
+- **MediaWeave**: Multilingual text/audio/video processing platform with Supabase backend integration.
+- **Crop Disease Detection & Sensor Analytics**: Computer vision pipelines using TensorFlow image classification, and sensor data analytics using NumPy & LSTM architectures.
+- **AI Workshops Leadership**: Co-organized and conducted hands-on AI workshops for school students with the AIML department team, featuring interactive prompt engineering and AI image generation labs.
+
+## Core Technical Stack
+- Languages & Web: Python, Java, SQL, TypeScript, React, Flask, SQLAlchemy
+- AI / ML & Vision: PyTorch, TensorFlow, Keras, Hugging Face (Transformers, Diffusers), OpenCV, MediaPipe, Whisper NLP, ComfyUI, CUDA PyTorch
+- Backend & Databases: PostgreSQL, Supabase, JWT Authentication, DBMS (SQL Joins & Window Functions), Schema Design, Database Migrations
+- Analytics & Tools: Power BI, pandas, scikit-learn, NumPy, GitHub, Linux, Markdown Platforms

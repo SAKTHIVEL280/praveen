@@ -1,0 +1,12 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' width='120' height='120'>
+  <defs>
+    <linearGradient id='antGrad' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#D97706'/>
+      <stop offset='100%' stop-color='#78350F'/>
+    </linearGradient>
+  </defs>
+  <polygon points='60,8 102,32 102,80 60,104 18,80 18,32' fill='url(#antGrad)' stroke='#FFCD00' stroke-width='3'/>
+  <path d='M60 30 L66 48 L84 48 L70 58 L76 76 L60 64 L44 76 L50 58 L36 48 L54 48 Z' fill='#FFCD00'/>
+  <text x='60' y='88' text-anchor='middle' fill='#FFFFFF' font-family='sans-serif' font-weight='bold' font-size='8.5'>ANTHROPIC</text>
+  <text x='60' y='98' text-anchor='middle' fill='#FFCD00' font-family='sans-serif' font-weight='bold' font-size='7.5'>CLAUDE ARCH</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' width='120' height='120'>
+  <defs>
+    <linearGradient id='azFundGrad' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#0078D4'/>
+      <stop offset='100%' stop-color='#003A70'/>
+    </linearGradient>
+  </defs>
+  <path d='M60 10 L105 25 V65 C105 92 60 110 60 110 C60 110 15 92 15 65 V25 Z' fill='url(#azFundGrad)' stroke='#FFCD00' stroke-width='3'/>
+  <g transform='translate(42, 32) scale(1.1)'>
+    <rect x='0' y='0' width='15' height='15' fill='#F25022'/>
+    <rect x='18' y='0' width='15' height='15' fill='#7FBA00'/>
+    <rect x='0' y='18' width='15' height='15' fill='#00A4EF'/>
+    <rect x='18' y='18' width='15' height='15' fill='#FFB900'/>
+  </g>
+  <text x='60' y='82' text-anchor='middle' fill='#FFFFFF' font-family='sans-serif' font-weight='bold' font-size='9'>AZURE</text>
+  <text x='60' y='94' text-anchor='middle' fill='#FFCD00' font-family='sans-serif' font-weight='bold' font-size='7.5'>FUNDAMENTALS</text>
+</svg>

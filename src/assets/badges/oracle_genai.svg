@@ -1,0 +1,13 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120' width='120' height='120'>
+  <defs>
+    <linearGradient id='oraGrad' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#C74634'/>
+      <stop offset='100%' stop-color='#7F1D1D'/>
+    </linearGradient>
+  </defs>
+  <circle cx='60' cy='60' r='50' fill='url(#oraGrad)' stroke='#FFCD00' stroke-width='3'/>
+  <circle cx='60' cy='60' r='42' fill='none' stroke='#FFFFFF' stroke-width='1.5' stroke-dasharray='4 2'/>
+  <path d='M40 50 C40 40, 80 40, 80 50 C80 60, 40 60, 40 70 C40 80, 80 80, 80 70' fill='none' stroke='#FFCD00' stroke-width='5' stroke-linecap='round'/>
+  <text x='60' y='92' text-anchor='middle' fill='#FFFFFF' font-family='sans-serif' font-weight='bold' font-size='8.5'>ORACLE GENAI</text>
+  <text x='60' y='102' text-anchor='middle' fill='#FFCD00' font-family='sans-serif' font-weight='bold' font-size='7'>CERTIFIED PROF</text>
+</svg>
