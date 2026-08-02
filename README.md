@@ -1,97 +1,91 @@
-# Sakthivel Portfolio
+# Praveen S — Cloud AI Engineer & Systems Architect Portfolio
 
-A cinematic, AI-native portfolio built with React, TypeScript, GSAP, and Tailwind CSS.
+A cinematic, performance-focused, AI-native portfolio engineered for **Praveen S** (B.E. Computer Science and Engineering — Artificial Intelligence and Machine Learning, 9.2/10 CGPA).
 
-## Overview
+Built with **React**, **TypeScript**, **GSAP ScrollTrigger**, **Lenis Smooth Scroll**, and **Tailwind CSS** styled in a bespoke **Caterpillar Dark & Yellow Palette** (`#0D0D0D` Dark Charcoal, `#FFCD00` Caterpillar Yellow).
 
-This project is a performance-focused single-page experience with a dedicated projects route.
+---
 
-- Professional intro line-draw counter loader
-- Scroll-driven storytelling and section reveals
-- Smooth scrolling via Lenis + GSAP ticker sync
-- Fully responsive project showcase (horizontal desktop / vertical mobile)
+## 🌟 Key Highlights
 
-## Tech Stack
+- **Caterpillar Theme Aesthetics**: Bold, high-contrast dark industrial design with custom morphing SVG curves and Caterpillar Yellow section breaks.
+- **Candidate Engineering Focus**: Tailored for enterprise cloud, multi-agent AI orchestration, and software engineering roles.
+- **Verified Credentials Section**: Displaying authentic official badges for Microsoft, Oracle, and Anthropic with live verification links.
+- **Production Projects Showcase**: Real-world systems including *Mecandria ERP SaaS*, *Complaint Priority OS*, *EnviroScan AI Platform*, and *HMS Cloud Infrastructure*.
+- **Technical Skills Matrix**: 6 exact skill categories directly synchronized with candidate resume.
+- **Cinematic Motion**: Line-draw intro loader, Lenis smooth scrolling, text scrambling, magnetic hover effects, and GSAP ScrollTrigger timelines.
 
-- React 18 + TypeScript
-- Vite 5
-- Tailwind CSS
-- GSAP + ScrollTrigger
-- Lenis (@studio-freight/lenis)
-- React Router DOM
+---
 
-## Visual Effects and Motion
+## 🛠️ Tech Stack & Architecture
 
-- Intro sequence: 0-100% counter, line draw, curtain transition
-- Hero reveal: staged text and media clip-path animations
-- Manifesto section: SVG path drawing, word scrambling, highlight-reveal animation
-- Projects section:
-- Mobile card stagger + mask reveals
-- Desktop horizontal scroll track with parallax image offset
-- Skills and Footer: SVG wave/path morphing tied to scroll progress
-- Micro-interactions: magnetic hover effect, icon transitions, cursor states
+- **Core**: React 18, TypeScript, Vite 5
+- **Styling**: Tailwind CSS, Vanilla CSS Design System, Custom SVG Wave Generators
+- **Animation**: GSAP 3 + ScrollTrigger, Studio Freight Lenis
+- **Routing**: React Router DOM v6
+- **Testing**: Vitest, React Testing Library
+- **Deployment**: Vercel SPA Routing (`vercel.json`), Static WebP Assets
 
-## Getting Started
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
 - Node.js 20+
 - npm 10+
 
-### Install
+### Installation & Setup
 
 ```bash
+# Clone repository
+git clone https://github.com/SAKTHIVEL280/praveen.git
+cd praveen
+
+# Install dependencies
 npm install
-```
 
-### Run in development
-
-```bash
+# Start development server
 npm run dev
 ```
 
-Open the local URL shown by Vite (default: http://localhost:8080).
+Open your browser at `http://localhost:8080`.
 
-## Scripts
+---
 
-- `npm run dev` - Start local dev server
-- `npm run build` - Create production build
-- `npm run preview` - Preview production build locally
-- `npm run lint` - Run ESLint
-- `npm run test` - Run Vitest tests once
-- `npm run test:watch` - Run Vitest in watch mode
+## 📜 Scripts
 
-## Project Structure
+| Command | Description |
+| :--- | :--- |
+| `npm run dev` | Starts local Vite development server with hot reload |
+| `npm run build` | Builds optimized production bundle in `dist/` |
+| `npm run preview` | Locally previews production build |
+| `npm run test` | Executes Vitest unit & contract test suite |
+| `npm run lint` | Runs ESLint for code quality checks |
 
-- `src/pages/Index.tsx` - Main single-page experience
-- `src/pages/Projects.tsx` - Full projects route
-- `src/components/sections/` - Core content sections
-- `src/components/SmoothScroll.tsx` - Lenis + ScrollTrigger integration
-- `src/components/IntroLoader.tsx` - Intro loader animation
-- `src/index.css` - Global tokens and styling system
+---
 
-## Production Notes
+## 📂 Project Structure
 
-- Production bundle is generated with Vite tree-shaking and minification.
-- Image assets are served as WebP for efficient payload size.
-- Animation work is scoped and reverted with GSAP context cleanup.
-
-## Deployment
-
-Deploy the `dist/` output produced by:
-
-```bash
-npm run build
+```text
+praveen-portfolio/
+├── public/                  # Favicons, robots.txt, sitemap, resume PDF
+├── src/
+│   ├── assets/              # WebP project screenshots, official credential badges
+│   ├── components/
+│   │   ├── sections/        # Hero, Manifesto, Philosophy, Projects, Skills, Certifications, Footer
+│   │   ├── IntroLoader.tsx  # Line-draw counter & curtain transition
+│   │   ├── Magnetic.tsx     # Magnetic hover micro-interaction
+│   │   └── SmoothScroll.tsx # Lenis + GSAP ticker integration
+│   ├── pages/               # Index (Home) and Projects detail routes
+│   └── index.css            # Custom CSS variables & Caterpillar theme rules
+├── vercel.json              # Vercel SPA rewrite & security headers
+├── vite.config.ts           # Vite build configuration
+└── README.md                # Project documentation
 ```
 
-Primary production domain:
+---
 
-- `https://sakthivel.daeq.in`
+## 📄 License & Credits
 
-This project is configured for Vercel hosting via `vercel.json`, including:
-
-- SPA rewrites for React Router routes like `/projects`
-- cache headers for versioned asset files
-- basic hardening headers for browser security
-
-It can also be deployed on Netlify, Cloudflare Pages, or any static hosting platform with equivalent SPA rewrite rules.
+Designed & Engineered for **Praveen S**. All rights reserved © 2026.
