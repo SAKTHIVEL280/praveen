@@ -57,7 +57,7 @@ const credentials: Credential[] = [
   {
     number: "05",
     issuer: "Anthropic",
-    title: "Claude Certified Architect – Foundations",
+    title: "Claude Certified Architect - Foundations",
     description: "Architecting frontier AI systems with Claude API, context engineering, tool use integration, autonomous agent workflows, and AI safety protocols.",
     badgeImg: claudeColorBadge,
     verifyUrl: "http://verify.skilljar.com/c/hbkadj74fg69",

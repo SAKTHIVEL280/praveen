@@ -205,7 +205,7 @@ const FooterSection = () => {
           <span
             className="text-sm md:text-base tracking-wide text-gray-400 font-mono"
           >
-            © 2026 Praveen S — B.E. CSE (AI &amp; ML) // Open for Software &amp; Cloud AI Engineering Roles.
+            © 2026 Praveen S | B.E. CSE (AI &amp; ML) // Open for Software &amp; Cloud AI Engineering Roles.
           </span>
         </div>
       </div>

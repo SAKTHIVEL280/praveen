@@ -176,7 +176,7 @@ const HeroSection = () => {
               >
                 Praveen S
               </h1>
-              <h2 className="sr-only">Praveen S Portfolio — AI Engineer &amp; Cloud Backend Architect</h2>
+              <h2 className="sr-only">Praveen S Portfolio | AI Engineer &amp; Cloud Backend Architect</h2>
             </div>
 
             <div

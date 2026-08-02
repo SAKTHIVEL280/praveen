@@ -8,7 +8,7 @@ const principles = [
   {
     title: "Multi-Agent AI Orchestration",
     description:
-      "Designing intelligent ticket routing pipelines powered by multi-agent LLM systems via Groq ~ automating domain classification, urgency grading, and P1–P4 priority assignment with JWT-based RBAC.",
+      "Designing intelligent ticket routing pipelines powered by multi-agent LLM systems via Groq ~ automating domain classification, urgency grading, and P1-P4 priority assignment with JWT-based RBAC.",
   },
   {
     title: "Enterprise Cloud & Server Provisioning",

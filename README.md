@@ -1,6 +1,6 @@
-# Praveen S — Cloud AI Engineer & Systems Architect Portfolio
+# Praveen S | Cloud AI Engineer & Systems Architect Portfolio
 
-A cinematic, performance-focused, AI-native portfolio engineered for **Praveen S** (B.E. Computer Science and Engineering — Artificial Intelligence and Machine Learning, 9.2/10 CGPA).
+A cinematic, performance-focused, AI-native portfolio engineered for **Praveen S** (B.E. Computer Science and Engineering: Artificial Intelligence and Machine Learning, 9.2/10 CGPA).
 
 Built with **React**, **TypeScript**, **GSAP ScrollTrigger**, **Lenis Smooth Scroll**, and **Tailwind CSS** styled in a bespoke **Caterpillar Dark & Yellow Palette** (`#0D0D0D` Dark Charcoal, `#FFCD00` Caterpillar Yellow).
 
